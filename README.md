@@ -15,4 +15,4 @@
 `npm start`
 
 `Open localhost:8080 in url`
-![](<a href="https://imageresize.org" target="_blank">Image Resizer</a>)
+![]()
