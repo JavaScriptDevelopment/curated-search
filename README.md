@@ -14,3 +14,4 @@
 
 `npm start`
 
+`Open localhost:8080 in url`
