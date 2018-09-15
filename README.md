@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/React.js app for fast searching and playing Youtube videos using the Youtube API. -red.svg?style=for-the-badge)]
+# React.js app for fast searching and playing Youtube videos using the Youtube API. 
 
 # Need Node.js installed 8.0 or above.
 [![](https://img.shields.io/badge/nodejs-blue.svg?style=for-the-badge)](https://nodejs.org/dist/v10.10.0/node-v10.10.0-x64.msi)
