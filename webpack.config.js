@@ -1,22 +1,27 @@
 module.exports = {
-  entry: ["./src/index.js"],
-  output: {
-    path: __dirname,
-    publicPath: "/",
-    filename: "bundle.js"
-  },
-  module: {
-    loaders: [
-      {
+    entry: ["./src/index.js"],
+    output: {
+      path: __dirname,
+      publicPath: "/",
+      filename: "bundle.js"
+    },
+    module: {
+      loaders: [{
         exclude: /node_modules/,
         loader: "babel"
-      }
-    ]
-  },
-  resolve: {
-    extensions: ["", ".js", ".jsx"]
+      }]
+    },
+    resolve: {
+      extensions: ["", ".js", ".jsx"]
+    },
+    devServer: {
+      contentBase: "./"
+    }
   },
   devServer: {
-    contentBase: "./"
-  }
-};
+
+    compress: true,
+
+    disableHostCheck: true, // That solved it
+
+  };
