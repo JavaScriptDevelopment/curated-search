@@ -16,11 +16,11 @@ class App extends Component {
             videos: [],
             selectedVideo: null
         };
-    
+
 
         this.videoSearch('Hand Covers Bruise (HD) - From the Soundtrack to "The Social Network"');
     }
-    
+
     videoSearch(term) {
 	    YTSearch({key: API_KEY, term: term}, (videos) => {
 		    this.setState({
@@ -30,10 +30,10 @@ class App extends Component {
 		    // this.setState({videos: videos}); The same thing
 	    });
     }
-    
+
     render() {
         const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 300);
-      
+
         return (
             <div>
                 <SearchBar onSearchTermChange={videoSearch}/>
