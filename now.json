@@ -1,3 +1,5 @@
 {
-  "type": "static",
+  "name": "curated-search",
+  "type": "docker",
+  "alias": "csearch"
 }
