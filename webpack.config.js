@@ -22,6 +22,6 @@ module.exports = {
 
     compress: true,
 
-    disableHostCheck: true, // That solved it
+    disableHostCheck: true // That solved it, 
 
   };
