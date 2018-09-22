@@ -9,7 +9,7 @@
 * This is a small project developed with reactjs. 
 * Try to use github with every step code change to git familiar with version control
 
-## How to start the App
+## How to start the App in local machine.
 `follow the above steps after installing react.js`
 
 `git clone git@github.com:JavaScriptDevelopment/curated-search.git`
