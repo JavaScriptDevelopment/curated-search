@@ -20,6 +20,13 @@
 
 `Open localhost:8080 in url`
 
+![](https://img.shields.io/badge/API_KEY-red.svg?style=for-the-badge)
+```bash
+# Add your api key in ./src/actions/index.js 
+const API_KEY = ' ';
+```
+![](api.png)
+
 ![](Screenshot.png)
 
 
